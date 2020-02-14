@@ -32,4 +32,4 @@ function carregarArticles(event) {
         })
 }
 
-$('#exibir-noticias').click(carregarArticles)
+document.querySelector('#exibir-noticias').onclick = carregarArticles
